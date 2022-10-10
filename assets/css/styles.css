@@ -4,6 +4,8 @@
     --color-black:  #000;
     --color-white:  #fff;
     --color-orange: #e58e26;
+    --color-grayL:  #ccc;
+    --color-grayD:  #333;
 }
 
 *{
@@ -18,8 +20,10 @@ html{
 
 body{
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
+
+
+/* CABEÇÃLHO */
 
 header{
     background-color: var(--color-black);
@@ -67,6 +71,7 @@ header{
     display: flex;
     flex-direction: column;
     font-size: 2rem;
+    font-weight: 600;
     height: 10rem;
     justify-content: center;
     padding: 0px 1.5rem;
@@ -75,29 +80,41 @@ header{
     
 }
 
+.header__menu li a:hover{
+    color: var(--color-grayL);
+}
+
+
 .header__menu li a::before{
     content: '';
     background-color: var(--color-orange);
     width: 0px;
-    height: 3px;
-    margin-bottom: 5px;
-    transition: width 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    height: 0.3rem;
+    margin-bottom: 0.5rem;
+    transition: width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .header__menu li a:hover::before{
     width: 100%;
+
 }
 
 .header__menu li a::after{
     content: '';
     background-color: var(--color-orange);
     width: 0px;
-    height: 3px;
-    margin-top: 5px;
-    transition: width 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    height: 0.3rem;
+    margin-top: 0.5rem;
+    transition: width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .header__menu li a:hover::after{
     width: 100%;
 }
 
+
+/* BANNER PRINCIPAL */
+.banner{
+    background-color: var(--color-grayD);
+    height: calc(100vh - 10rem);
+}
