@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 :root{
-    --color-black:  #000;
-    --color-white:  #fff;
-    --color-orange: #b28756;
-    --color-grayL:  #ccc;
-    --color-grayD:  #333;
+    --color-black:   #000;
+    --color-white:   #fff;
+    --color-orange:  #b28756;
+    --color-grayL:   #CCC;
+    --color-grayL2:  #f7f7f7;
+    --color-grayM:   #c0bcb4;
+    --color-grayD:   #333;
 }
 
 *{
@@ -20,6 +22,8 @@ html{
 
 body{
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    
 }
 
 
@@ -145,7 +149,7 @@ header{
 }
 
 .banner .slide__content h1{
-    font-size: 9rem;
+    font-size: 5.5rem;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -157,7 +161,7 @@ header{
 .banner .slide__content h2{
     text-transform: uppercase;
     margin-top: 2rem;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .banner .slide__content button{
@@ -198,18 +202,66 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 3rem;
     margin-top: -5rem;
-    position: absolute;
 }
 
 .banner__circles{
     border: 0.2rem solid var(--color-orange);
     border-radius: 5rem;
+    cursor: pointer;
     width: 1.5rem;
     height: 1.5rem;
-    margin: 0px 1rem;
+    margin: 0px 0.7rem;
+}
 
-    
+.banner__circles.banner__circles--active{
+    background-color: var(--color-orange);
+}
+
+/* ESTRUTA PADRÃO DO CONTEÚDO */
+.default{
+    padding: 4rem 0px;
+}
+
+.default .section__title,
+.default .section__desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section__title{
+    font-size: 2rem;
+}
+
+.default .section__desc{
+    color: var(--color-grayM);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.default .section__body{
+    background-color: #CCC;
+    max-width: 1580px;
+    margin: auto;
+    min-height: 100px
+}
+
+.default--light{
+    background-color: var(--color-grayL2);
+}
+
+.default--light .section__title{
+    color: var(--color-black);
+}
+
+.default--dark{
+    background-color: var(--color-black);
+}
+
+.default--dark .section__title{
+    color: var(--color-white);
 }
