@@ -6,7 +6,7 @@
     --color-orange:  #b28756;
     --color-grayL:   #CCC;
     --color-grayL2:  #f7f7f7;
-    --color-grayM:   #c0bcb4;
+    --color-grayM:   #999;
     --color-grayD:   #333;
 }
 
@@ -293,6 +293,7 @@ header{
 
 .section__right{
     width: 760px;
+    text-align: center;
     
 }
 
@@ -300,4 +301,39 @@ header{
     width: 440px;
     box-shadow: 5px 10px 10px var(--color-grayM);
     margin-left: 50px;
+}
+
+/* SERVICES */
+.section-services{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.section__service{
+    flex: 1;
+    line-height: 20px;
+    text-align: center;
+    padding: 1.2rem;
+    border-left: 0.2rem solid var(--color-grayD);    
+}
+
+.section__service:last-child{
+    border-right: 0.2rem solid var(--color-grayD);
+}
+
+.section__service img{
+    margin-bottom: 3rem;
+}
+
+.section__service h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+
+.section__service p{
+    font-size: 1.7rem;
+    color: var(--color-grayM);
+    margin-top: 1rem;
 }
