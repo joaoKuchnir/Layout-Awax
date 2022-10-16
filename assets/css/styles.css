@@ -377,3 +377,77 @@ header{
 .section__filters .active{
     border-bottom: 0.4rem solid var(--color-orange);
 }
+
+.section__photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 1580px;
+    margin-top: 2.6rem;
+}
+
+.section__photo{
+    width: 28rem;
+}
+
+.section__photo__area{
+    margin: 1rem;
+    width: 26rem;
+    height: 16rem;
+    transform: scale(1);
+    transition: transform 300ms ease;
+}
+
+.section__photo__area img{
+    width: inherit;
+    height: inherit;
+}
+
+.section__photo__desc{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.section__photo__desc a{
+    color: var(--color-white);
+    text-decoration: none;
+    text-align: center;
+}
+
+.section__photo__desc h5{
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section__photo__desc p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 0.6rem;
+    padding: 0px 1rem;
+    
+}
+
+.section__photo__area:hover{
+    transform: scale(1.1);
+    transition: transform 200ms ease;
+}
+
+.section__photo__desc--active{
+    display: flex;
+}
+
+.section__photo__area:hover .section__photo__desc{
+    display: flex;
+}
+
+.button--projects{
+    margin-top: 2rem;
+}
