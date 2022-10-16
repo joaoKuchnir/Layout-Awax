@@ -4,6 +4,7 @@
     --color-black:   #000;
     --color-white:   #fff;
     --color-orange:  #b28756;
+    --color-gray:    #ecf0f1;
     --color-grayL:   #CCC;
     --color-grayL2:  #f7f7f7;
     --color-grayM:   #999;
@@ -267,9 +268,6 @@ header{
 }
 
 
-
-
-
 /* ÁREAS ESPECIFICAS  */
 /* ABOUT-US */
 .section-about-us{
@@ -303,18 +301,21 @@ header{
     margin-left: 50px;
 }
 
+
 /* SERVICES */
 .section-services{
     display: flex;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .section__service{
+    border-left: 0.2rem solid var(--color-grayD);   
     flex: 1;
     line-height: 20px;
     text-align: center;
     padding: 1.2rem;
-    border-left: 0.2rem solid var(--color-grayD);    
+     
 }
 
 .section__service:last-child{
@@ -331,9 +332,48 @@ header{
 }
 
 
-
 .section__service p{
     font-size: 1.7rem;
     color: var(--color-grayM);
     margin-top: 1rem;
+}
+
+
+/* PROJECTS */
+.section-projects{
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__filters{
+    border: 0.1rem solid var(--color-grayL);
+    background-color: var(--color-gray);
+    border-radius: 3rem;
+    display: inline-block;
+    padding: 0px 4rem;
+}
+
+.section__filters ul,
+.section__filters li{
+    list-style: none;
+}
+
+.section__filters li{
+    border-right: 0.1rem solid var(--color-grayL);
+    border-bottom: 0.2rem solid var(--color-gray);
+    color: var(--color-grayD);
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: 1.7rem;
+    text-transform: uppercase;
+}
+
+.section__filters li:last-child{
+    border-right: 0;
+}
+
+.section__filters li:hover,
+.section__filters .active{
+    border-bottom: 0.4rem solid var(--color-orange);
 }
