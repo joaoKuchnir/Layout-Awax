@@ -367,6 +367,7 @@ header{
     font-size: 1.7rem;
     padding: 1.7rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .section__filters li:last-child{
@@ -450,4 +451,99 @@ header{
 
 .button--projects{
     margin-top: 2rem;
+    padding: 1.3rem  5rem;
+}
+
+
+/* TEAM */
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 4rem 0px;
+    margin-top: 2rem;
+}
+
+.team-bg{
+    background-image: url(/media/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team{
+    overflow: hidden;
+    max-width: 109rem;
+    margin: auto;
+}
+
+.section-team .banner__sliders{
+    width: 1000vw;
+    height: 100%;
+ 
+}
+
+.section-team .banner__slide{
+    background-color: var(--color-white);
+    display: inline-block;
+    width: 35rem;
+    height: 100%;
+    min-height: 39rem;
+    margin-right: 2rem;
+    
+}
+
+.section-team .slide__content{
+    color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner__circles__area--team{
+    margin-top: 5rem;
+}
+
+.section__team__avatar{
+    width: 15rem;
+    height: auto;
+    margin-top: 4.5rem;
+}
+
+.section__team__name{
+    color: var(--color-black);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4.5rem;
+}
+
+.section__team__role{
+    color: var(--color-grayD);
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+}
+
+.section__team__social{
+    display: flex;
+    margin-top: 4.5rem;
+}
+
+.section__team__social a{
+    background-color: var(--color-grayM);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+
+.section__team__social a:hover{
+    background-color: var(--color-orange);
+}
+
+.section__team__social .active{
+    background-color: var(--color-orange);
 }
