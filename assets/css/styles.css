@@ -463,7 +463,7 @@ header{
 }
 
 .team-bg{
-    background-image: url(/media/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
     padding: 0;
