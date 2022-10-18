@@ -120,7 +120,7 @@ header{
 /* BANNER PRINCIPAL */
 .banner{
     background-color: var(--color-grayD);
-    background-image: url(../assets/images/bg.jpg);
+    background-image: url(assets/images/bg.jpg);
     background-position: bottom;
     height: calc(100vh - 10rem);
     overflow: hidden;
