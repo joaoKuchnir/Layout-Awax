@@ -3,10 +3,11 @@
 :root{
     --color-black:   #000;
     --color-white:   #fff;
+    --color-white2:  #dcdde1; 
     --color-orange:  #b28756;
     --color-gray:    #ecf0f1;
     --color-grayL:   #CCC;
-    --color-grayL2:  #f7f7f7;
+    --color-grayL2:  #f1f2f6;
     --color-grayM:   #999;
     --color-grayD:   #333;
 }
@@ -223,7 +224,9 @@ header{
 
 /* ESTRUTURA PADRÃO DO CONTEÚDO */
 .default{
-    padding: 4rem 0px;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+
 }
 
 .default .section__title,
@@ -260,6 +263,7 @@ header{
 
 .default--dark{
     background-color: var(--color-black);
+    
 }
 
 .default--dark .section__title,
@@ -459,7 +463,6 @@ header{
 .section-team-area{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 4rem 0px;
-    margin-top: 2rem;
 }
 
 .team-bg{
@@ -546,4 +549,10 @@ header{
 
 .section__team__social .active{
     background-color: var(--color-orange);
+}
+
+
+/* HAPPY CLIENTS */
+.section-testimonials .section__body {
+    max-width:initial;
 }
