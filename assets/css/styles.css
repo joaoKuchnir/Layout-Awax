@@ -9,6 +9,7 @@
     --color-grayL:   #CCC;
     --color-grayL2:  #f1f2f6;
     --color-grayM:   #999;
+    --color-grayM2:  #555;
     --color-grayD:   #333;
 }
 
@@ -553,6 +554,47 @@ header{
 
 
 /* HAPPY CLIENTS */
-.section-testimonials .section__body {
-    max-width:initial;
+.testimonials{
+    padding-bottom: 4rem;
+    
+}
+
+.section-testimonials .slide__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section__testimonials__avatar{
+    width: 10rem;
+}
+
+.section__testimonials__name{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.section__testimonials__role{
+    font-size: 1.4rem;
+}
+
+.section__testimonials__quoteimg{
+    width: 2rem;
+    margin-top: 2.3rem;
+}
+
+.section__testimonials__quote{
+    color: var(--color-grayM2);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    max-width: 70rem;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+.banner__circles__area--testimonials{
+    margin-top: 4rem;
 }
