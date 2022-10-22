@@ -556,7 +556,6 @@ header{
 /* HAPPY CLIENTS */
 .testimonials{
     padding-bottom: 4rem;
-    
 }
 
 .section-testimonials .slide__content{
@@ -597,4 +596,20 @@ header{
 
 .banner__circles__area--testimonials{
     margin-top: 4rem;
+}
+
+
+/* COMPANIES */
+.section-companies{
+    border-top: 2px solid var(--color-grayL);
+    border-bottom: 2px solid var(--color-grayL);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.companies__area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10rem;
 }
