@@ -3,7 +3,7 @@
 :root{
     --color-black:   #000;
     --color-white:   #fff;
-    --color-white2:  #dcdde1; 
+    --color-white2:  #dfe6e9; 
     --color-orange:  #b28756;
     --color-gray:    #ecf0f1;
     --color-grayL:   #CCC;
@@ -602,9 +602,8 @@ header{
 /* COMPANIES */
 .section-companies{
     border-top: 2px solid var(--color-grayL);
-    border-bottom: 2px solid var(--color-grayL);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    border-bottom: 3px solid var(--color-grayL);
+    padding-bottom: 4rem;
 }
 
 .companies__area{
@@ -612,4 +611,82 @@ header{
     justify-content: space-around;
     align-items: center;
     margin: 0 10rem;
+}
+
+/* PRICE TABLE */
+.default--light--price{
+    background-color: var(--color-white2);
+}
+
+.section-price-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1580px;
+}
+
+.section-price-table{
+    background-color: var(--color-white);
+    display: inline-block;
+    width: 29rem;
+    height: 100%;
+    min-height: 39rem;
+    margin-right: 3rem;
+    border-radius: 3px;
+}
+
+.plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan__name{
+    color: var(--color-black);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3rem
+}
+
+.plan__price{
+    color: inherit;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.plan__period{
+    color: var(--color-grayM);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.plan__desc h6{
+    color: var(--color-grayM2);   
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.plan__desc h6:not(:last-child)::after{
+    content: '';
+    width: 7px;
+    height: 1px;
+    background: var(--color-black);
+    display: block;
+    margin: 10px auto;
+}
+
+.button--plans{
+    background-color: var(--color-black);   
+    padding: 1.4rem  4rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.button--plans:hover{
+    background-color: var(--color-orange);
 }
