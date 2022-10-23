@@ -11,6 +11,14 @@
     --color-grayM:   #999;
     --color-grayM2:  #555;
     --color-grayD:   #333;
+    --color-blue:    #00acee;
+    --color-blue2:   #0e76a8;
+    --color-blue3:   #3b5998;
+    --color-red:     #db4a39;
+    --color-red2:    #E60023;    ;
+    
+
+
 }
 
 *{
@@ -47,13 +55,8 @@ header{
 }
 
 .header__img{
-    width: 10rem;
-    height: 10rem; 
-}
-
-.header__img img{
-    width: 10rem;
-    height: 10rem;  
+    text-align: center;
+    width: 12rem;
 }
 
 .header__menu{
@@ -793,6 +796,7 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding: 0 4rem;
 }
 
 .section-fact{
@@ -832,6 +836,70 @@ header{
 }
 
 
+/* SHARE */
+.section-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-grayM);
+}
+
+.share__img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 0.8rem;
+}
+
+.share__img img{
+    padding-top: 0.5rem;
+
+}
+
+.share__desc{
+    color: var(--color-grayM);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 7rem;
+}
+
+.share__img__social{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+}
+
+.twitter{
+    background-color: var(--color-blue);
+}
+
+.linkedin{
+    background-color: var(--color-blue2);
+}
+
+.facebook{
+    background-color: var(--color-blue3);
+}
+
+.googleplus{
+    background-color: var(--color-red);
+}
+
+.pinterest{
+    background-color: var(--color-red2);
+}
+
+.share__desc_count{
+    color: var(--color-grayM);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-right: 4rem;
+}
 
 /* SCROLLBAR */
 ::-webkit-scrollbar{
