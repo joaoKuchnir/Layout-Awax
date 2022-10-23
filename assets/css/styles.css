@@ -776,21 +776,60 @@ header{
     vertical-align: middle;
 }
 
+.banner__circles__area--premiun{
+    margin-top: 3.5rem;
+}
+
 .section-premiun .button{
     padding: 1.3rem 5rem;
     margin: auto;
     margin-top: 3rem;
-    margin-bottom: 3.4rem;
+    margin-bottom: 1.5rem;
 }
 
 
+/* SOME FACTS */
+.section-facts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
+.section-fact{
+   flex: 1;
+}
 
+.fact__line1{
+    color: var(--color-orange);
+    font-size: 5rem;
+    font-weight: bold;
+}
 
+.fact__line1::after{
+    content: '';
+    background: var(--color-grayM2);
+    display: block;
+    width: 16px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
 
+.fact__line2{
+    color: var(--color-white);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
 
+}
 
-
+.fact__line3{
+    color: var(--color-grayL);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
 
 
 
