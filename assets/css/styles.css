@@ -255,6 +255,7 @@ header{
 .default .section__body{
     max-width: 1580px;
     margin: auto;
+    margin: 0 4rem;
 }
 
 .default--light{
@@ -1060,7 +1061,7 @@ header{
     color: var(--color-grayL);
     text-align: left;
     font-size: 1.5rem;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .footer__center h4{
@@ -1119,5 +1120,4 @@ header{
 ::-webkit-scrollbar-thumb{
     background-color: var(--color-orange);
     border-radius: 1px;
-    height: 40rem;
 }
