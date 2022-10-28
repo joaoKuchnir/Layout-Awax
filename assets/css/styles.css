@@ -1202,7 +1202,6 @@ header{
 
     .section__right img{
         margin: 0;
-        display: none;
     }
 
     .section__left{
@@ -1278,8 +1277,81 @@ header{
         margin: 0;
     }
 
+    .default--light--premiun{
+        padding-bottom: 3rem;    
+    }
+
+    .premiun__area{
+        flex-direction: column;
+    }
+
+    .premiun__left{
+        margin: 0 auto;
+        margin-bottom: 7rem;
+    }
+
+    .premiun__left img{
+        padding: 0;
+    }
+
+    .premiun__right{
+        flex: 1;
+        margin: 0 auto;
+    }
+
+    .section-premiun .button{
+        margin-bottom: 5rem;
+    }
+
+    .section-facts{
+        flex-wrap: wrap;
+        max-width: 70rem;
+        margin: 0 auto;
+        gap: 5rem;
+    }
+
     .section-map{
-        width: unset;
+        width: auto;        
+    }
+
+    .map__info{
+        width: 100%;
+    }
+
+    .section-footer{
+        justify-content: center;
+        flex-direction: column-reverse;
+        max-width: 60rem;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .footer__form{
+        width: 100%;
+    }
+
+    .footer__form .input{
+        margin-top: 2rem;
+    }
+
+    .footer__form .button{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer__left{
+        justify-content: center ;
+    }
+
+    .footer__center{
+        text-align: start;
+        overflow: none;
+        margin: 4rem 0;
         
     }
+
+    .footer__right__area .copy__right{
+        margin-top: 4rem;
+    }
+
 }
