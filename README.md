@@ -1,5 +1,5 @@
 ## Layout-Awax
-- **Layout feito para a práica de aprendizado sobre o curso de html5 e css3 feitos na plataforma:  https://b7web.com.br/**
+- **Layout feito para a práica de aprendizado sobre o curso de html5 e css3 feitos na plataforma:  https://b7web.com.br/fullstack/**
 
 - Site do projeto: https://layout-awax-joaokuchnir.vercel.app/
 
