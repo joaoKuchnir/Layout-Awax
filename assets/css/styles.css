@@ -1435,11 +1435,6 @@ header{
         font-size: 1.8rem;
     }
 
-    .banner .slide__content .button{
-        font-size: 1rem;
-        padding: 1.3rem 4.5rem;
-    }
-
     .section-about-us{
         flex-direction: column-reverse;
     }
