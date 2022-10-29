@@ -1504,11 +1504,11 @@ header{
     }
 
     .companies__area{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .companies__img{
-        margin-bottom: 2rem;        
+        margin-bottom: 0;        
     }
 
     .companies__img:last-child{
@@ -1516,7 +1516,7 @@ header{
     }
 
     .companies__img img{
-        width: 7rem;
+        width: 5rem;
     }
 
     .section__body--mobile{
