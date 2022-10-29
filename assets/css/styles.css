@@ -1505,19 +1505,23 @@ header{
 
     .companies__area{
         justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: 0 auto;
     }
 
     .companies__img{
-        margin-bottom: 0;        
+        margin-bottom: 2rem;        
     }
 
     .companies__img:last-child{
-        margin-bottom: 0;   
+        margin-bottom: 2rem;   
     }
 
     .companies__img img{
         width: 5rem;
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
     }
 
     .section__body--mobile{
