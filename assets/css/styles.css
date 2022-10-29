@@ -1507,7 +1507,7 @@ header{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        max-width: 70%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -1520,7 +1520,7 @@ header{
     }
 
     .companies__img img{
-        width: 5rem;
+        width: 7rem;
         margin-right: 2.5rem;
     }
 
