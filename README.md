@@ -3,6 +3,7 @@
 - Técnicas utilizadas:
 - HTML semântico;
 - CSS com flexbox.
+- Responsivo para: mobile, tablet. desktopa
 
 - Site do projeto: https://layout-awax-joaokuchnir.vercel.app/
 
